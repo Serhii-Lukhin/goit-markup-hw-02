@@ -1,64 +1,60 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455; /*slate*/
+  letter-spacing: 0.02em;
 }
 /*fonts*/
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 .header-1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
 }
 .header-2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 }
 .header-3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .body-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 .small-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
+  letter-spacing: 0.04em;
 }
 .body-medium-text {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 .button-text {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .link-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.33;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
   text-decoration: underline;
 }
@@ -124,7 +120,10 @@ body {
 }
 /*nav links*/
 .my-link {
-  padding: 24px 0;
+  /*padding: 24px 0; - проблема посилань у цьому педдінгу, який поки що не потрібен. Але ж я робив суто по ТЗ (критерії
+  прийняття. Сказано "зробити по стиль-гайду" я ж і зробив :) в рузультаті при наведенні на портфоліо ховер отримумвали
+  контакти, у яких посилання поки порожнє
+  а nav-link буде потрібен потім для позиціонування, це я недовидалив, бо спочатку аж у флєкси вліз в цьому ДЗ */
   color: #2e2f42;
   text-decoration: none;
 }
@@ -184,8 +183,6 @@ body {
 .our-team {
   background-color: #f4f4fd; /*cloud*/
 }
-
-/*font-family: "Raleway", sans-serif;*/
 
 /*colors
 .iris {
